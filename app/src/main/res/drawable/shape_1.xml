@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--文字-->
+    <!--设置边框-->
+    <stroke android:width="8px" android:color="@color/black"/>
+    <!--渐变-->
+    <gradient android:angle="100"
+              android:startColor="@color/black"
+              android:endColor="@color/white"/>
+    <!--设置一下边距,让空间大一点-->
+    <padding android:left="5dp" android:top="5dp"
+             android:right="5dp" android:bottom="5dp"/>
+</shape>

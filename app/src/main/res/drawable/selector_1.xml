@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按钮被按压-->
+    <item android:drawable="@color/beige" android:state_pressed="true"
+    />
+    <!--按钮不可用-->
+    <item android:drawable="@color/teal_200" android:state_enabled="false"
+    />
+    <!--默认背景-->
+    <item android:drawable="@color/sky_blue"/>
+</selector>
